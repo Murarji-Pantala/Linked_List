@@ -25,3 +25,6 @@ const removedAt = groceries.removeAt(1); // Removing at index 1
 console.log(`Removed item at index 1: ${removedAt}`);
 console.log("After removing the item at index 1:");
 console.log(groceries);
+
+// 5. Check the size of the linked list
+console.log(`Final size of the list: ${groceries.size}`);
