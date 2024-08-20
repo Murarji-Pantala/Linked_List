@@ -19,3 +19,9 @@ console.log(groceries);
 groceries.insertAt("Grapes", 1); // Inserting at index 1
 console.log('After inserting "Grapes" at index 1:');
 console.log(groceries);
+
+// 4. Remove an item at a specific position
+const removedAt = groceries.removeAt(1); // Removing at index 1
+console.log(`Removed item at index 1: ${removedAt}`);
+console.log("After removing the item at index 1:");
+console.log(groceries);
